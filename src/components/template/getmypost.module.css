@@ -1,0 +1,9 @@
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+  .container p {
+      width: 100px;
+      border: 0.5px solid red;
+  }
+  

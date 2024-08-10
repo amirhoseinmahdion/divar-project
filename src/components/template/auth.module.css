@@ -1,0 +1,53 @@
+.container{
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(130, 126, 126);
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+input{
+    width: 100%;
+   border-radius: 5px;
+   padding: 5px;
+   margin-top: 5px;
+}
+.inputtext{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.inputtext label {
+    font-weight: 500;
+}
+.btn1{
+    width: 60px;
+    padding: 5px;
+    background-color: rgb(253, 45, 45);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn2{
+    width: 160px;
+padding: 5px;
+margin-top: 15px;
+    background-color: rgb(whitesmoke, 45, 45);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

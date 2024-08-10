@@ -1,0 +1,28 @@
+.container{
+    width: 300px;
+    height: 300px;
+  
+   
+   
+}
+.container h3{
+  text-decoration: underline;
+  text-decoration-color: red ;
+  margin: 10px 0;
+}
+.container button{
+  margin-top: 5px;
+}
+.container label{
+  margin-bottom: 10px;
+}
+.container p{
+  margin-bottom: 10px;
+}
+.container input {
+  margin-bottom: 10px;
+}
+.container button:disabled{
+  opacity: 0.5;
+}
+
