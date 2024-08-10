@@ -2,6 +2,7 @@ import { useQuery } from "react-query";
 import styles from "./getmypost.module.css"
 import { GetMyPosts } from "../../services/post";
 import MypostCard from "../module/MypostCard";
+
 const GetMyPost = () => {
     const { data } = useQuery("GET-MYPOST", GetMyPosts)
     return (
